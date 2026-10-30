@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6391004-1e4e-473e-b3bc-b64cc10babdc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/calcul-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/main/java/com/exemple/calcul/CalculServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/main/java/com/exemple/calcul/controller/CalculController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/main/java/com/exemple/calcul/model/Resultat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/main/java/com/exemple/calcul/service/Calculatrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcul-service/src/test/java/com/exemple/calcul/Tp3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/java/com/exemple/historique/HistoriqueServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/java/com/exemple/historique/client/CalculClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/java/com/exemple/historique/controller/OperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/java/com/exemple/historique/model/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/java/com/exemple/historique/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historique-service/src/test/java/com/exemple/historique/HistoriqueServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5265352819659414E-52" />
+      <entry key="MS500" value="4.332539430283285E-11" />
+      <entry key="S2" value="0.0027141403393552955" />
+      <entry key="S5" value="0.13576134327353112" />
+      <entry key="S10" value="0.5982551954744756" />
+      <entry key="S30" value="1.7278037975115852" />
+      <entry key="S60" value="2.2729760748501326" />
+      <entry key="M2" value="2.649617667899886" />
+      <entry key="M5" value="3.926788628068864" />
+      <entry key="M10" value="6.8161072454683325" />
+      <entry key="M15" value="10.090344162253414" />
+      <entry key="M30" value="20.66456661356599" />
+      <entry key="H1" value="35.50249848015098" />
+      <entry key="H2" value="48.79472516732899" />
+      <entry key="H4" value="57.83017012197718" />
+      <entry key="D1" value="66.9688070390784" />
+      <entry key="W1" value="68.70536600679014" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000026049216" />
+      <entry key="S2" value="1.0088212517795059" />
+      <entry key="S5" value="1.2514618946721923" />
+      <entry key="S10" value="1.8786924590025131" />
+      <entry key="S30" value="3.2881107218949177" />
+      <entry key="S60" value="3.9984940251418117" />
+      <entry key="M2" value="4.471910784133923" />
+      <entry key="M5" value="5.161624338027877" />
+      <entry key="M10" value="6.080359242733755" />
+      <entry key="M15" value="6.768148857030384" />
+      <entry key="M30" value="8.203053789749811" />
+      <entry key="H1" value="9.775245035458525" />
+      <entry key="H2" value="11.0785343479883" />
+      <entry key="H4" value="11.943009337245243" />
+      <entry key="D1" value="12.808438610316898" />
+      <entry key="W1" value="12.97222720040781" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0641049700549345E-5" />
+      <entry key="MS500" value="0.10125043458535049" />
+      <entry key="S2" value="0.5718159750541092" />
+      <entry key="S5" value="1.1274984210644627" />
+      <entry key="S10" value="2.263775932586626" />
+      <entry key="S30" value="4.880470531286908" />
+      <entry key="S60" value="6.186911563425586" />
+      <entry key="M2" value="7.073525446539549" />
+      <entry key="M5" value="9.065638737277581" />
+      <entry key="M10" value="12.882463118638883" />
+      <entry key="M15" value="16.84760389236733" />
+      <entry key="M30" value="28.860015230603153" />
+      <entry key="H1" value="45.27243654959527" />
+      <entry key="H2" value="59.869908840886474" />
+      <entry key="H4" value="69.77126095050372" />
+      <entry key="D1" value="79.77688413312701" />
+      <entry key="W1" value="81.67754041649528" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LHQC5BuOIYkE05jR8mqZ5B5iVe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CalculServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/amina/IdeaProjects/TP3/calcul-service/image",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exemple.calcul.CalculServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6391004-1e4e-473e-b3bc-b64cc10babdc" name="Changes" comment="" />
+      <created>1793108386159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793108386159</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

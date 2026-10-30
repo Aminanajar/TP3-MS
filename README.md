@@ -43,7 +43,7 @@ les parties qui sont disparu :
 
 ##### C.2. Remplacez GET par POST dans Postman et renvoyez la requête. Quel code de statut obtenez-vous ? Est-ce le même qu'au TP2 ?
 <p align="center">
-<img src="image/GET_POST.png" alt="C.2" width="600">
+<img src="calcul-service/image/GET_POST.png" alt="C.2" width="600">
    <br>
   <strong>Figure 1 : Resultat du remplacez GET par POST dans Postman </strong>
 </p>
@@ -52,13 +52,13 @@ Un POST sur /calcul/somme renvoie 405 Method Not Allowed, car la méthode n'est 
 ## Partie D : Compléter la calculatrice
 ##### D.3 Observations
 <p align="center">
-  <img src="image/1.png" alt="Paramètre b absent" width="600">
+  <img src="calcul-service/image/1.png" alt="Paramètre b absent" width="600">
   <br>
-  <strong>Figure 1 : GET /calcul/somme?a=2 (le paramètre b est absent)</strong>
+  <strong>Figure É: GET /calcul/somme?a=2 (le paramètre b est absent)</strong>
 </p>
 
 <p align="center">
-  <img src="image/2.png" alt="Paramètre a invalide" width="600">
+  <img src="calcul-service/image/2.png" alt="Paramètre a invalide" width="600">
   <br>
   <strong>Figure 2 : GET /calcul/somme?a=abc&b=3 (le paramètre a n'est pas un entier)</strong>
 </p>
@@ -178,17 +178,17 @@ mvn clean package
 java -jar target/historique-service-0.0.1-SNAPSHOT.jar
 ```
 Il y a deux .jar exécutables à construire et à lancer séparément (contre un seul .war à déployer dans Tomcat au TP2). Aucun serveur à installer.
-### 4. Microservice et service web**
+### 4. Microservice et service web
 
 - Un microservice **est** un service web : `calcul-service` et `historique-service` exposent une API REST sur HTTP, accessible par n'importe quel client (`curl`, Postman ou un autre service).
 - Un service web n'est **pas toujours** un microservice : `RestWebApp.war` du TP2 était un service web, mais monolithique : le calcul et l'historique étaient regroupés dans une même application, déployée dans un Tomcat partagé, qu'on ne pouvait pas démarrer ni redéployer indépendamment.
 
 Un microservice est petit, autonome, possède son propre serveur et son propre port.
-### 5. Adresse de `calcul-service` écrite dans `application.properties`**
+### 5. Adresse de `calcul-service` écrite dans `application.properties`
 Avec trois exemplaires de `calcul-service` (ports différents), `historique-service` ne connaît qu'une seule adresse : tout le trafic va vers un seul exemplaire, les deux autres ne servent à rien, et la charge n'est pas répartie.
 Si cet exemplaire tombe, `historique-service` n'utilise pas les autres, et il faut modifier la configuration et redémarrer pour changer d'adresse.
 Il faudrait un mécanisme de découverte de services et de répartition de charge (TP4 : Spring Cloud).
-### 6. Stateless et liste des opérations**
+### 6. Stateless et liste des opérations
 Le principe stateless concerne l'**état de session du client** : le serveur ne garde pas de contexte de conversation entre deux requêtes, et chaque requête contient toute l'information nécessaire pour être traitée.
 La liste des opérations est l'**état des ressources** (les données de l'application), partagé par tous les clients, et non un état propre à un client.
 Les requêtes ne dépendent pas d'une requête précédente du même client : cela ne contredit donc pas le principe.
